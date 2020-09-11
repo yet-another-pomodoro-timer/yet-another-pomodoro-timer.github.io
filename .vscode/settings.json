@@ -1,0 +1,49 @@
+{
+  "eslint.validate": [{
+      "language": "html",
+      "autoFix": true
+    },
+    {
+      "language": "javascript",
+      "autoFix": true
+    },
+    {
+      "language": "markdown",
+      "autoFix": true
+    },
+    {
+      "language": "json",
+      "autoFix": true
+    }
+  ],
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "eslint.autoFixOnSave": true,
+  "eslint.enable": true,
+  "prettier.singleQuote": true,
+  "eslint.workingDirectories": [{
+      "directory": "./",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "./app",
+      "changeProcessCWD": true
+    },
+    {
+      "directory": "./website",
+      "changeProcessCWD": true
+    }
+  ],
+  "markdown.extension.print.onFileSave": false,
+  "markdown.extension.toc.orderedList": true,
+  "javascript.validate.enable": true,
+  "standard.enable": false,
+  "markdown.extension.toc.levels": "2..6",
+  "cSpell.words": [
+    "Pomodoro",
+    "Sourcegraph",
+    "grpc",
+    "proto",
+    "yapt"
+  ]
+}
